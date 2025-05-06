@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>HTML DOM Demo</title>
+    <link
+      rel="stylesheet"
+      href="main.css"
+    />
+  </head>
+  <body>
+    <h1>Demo <span style="display: none">HTML</span> DOM</h1>
+    <h2>===================================</h2>
+    <h2>⭐ Phần 2, 3, 4</h2>
+    <h2>===================================</h2>
+
+    <div
+      id="view1"
+      class="container"
+    >
+      <div class="flex-container">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+        <div class="flex-item">6</div>
+        <div class="flex-item">7</div>
+        <div class="flex-item">8</div>
+        <div class="flex-item">9</div>
+      </div>
+    </div>
+
+    <button onclick="showHideV2()">Ẩn/Hiện View 2</button>
+
+    <div
+      id="view2"
+      class="container hidden"
+    >
+      <div class="big-container"></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <h2>===================================</h2>
+    <h2>⭐ Phần 5: Tạo và xoá phần tử</h2>
+    <h2>===================================</h2>
+    <h3>Thêm, xoá phần tử trong list</h3>
+    <button
+      onclick="addElement()"
+      class="add"
+    >
+      <img
+        src="icons8-plus.svg"
+        alt="trash icon"
+      />
+      Thêm phần tử
+    </button>
+    <div
+      id="content"
+      class="box"
+    >
+      <ul>
+        <li class="item">Item 1 <span onclick="deleteThisElement()">Xoá</span></li>
+        <li class="item">Item 2 <span onclick="deleteThisElement()">Xoá</span></li>
+        <li class="item">Item 3 <span onclick="deleteThisElement()">Xoá</span></li>
+      </ul>
+    </div>
+    <button
+      onclick="removeElement()"
+      class="delete"
+    >
+      <img
+        src="icons8-trash.svg"
+        alt="trash icon"
+      />
+      Xoá phần tử cuối
+    </button>
+    <div id="output"></div>
+
+    <footer>
+      <hr />
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/68064/trash"
+        >Trash</a
+      >
+      icon,
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/59864/plus"
+        >Plus</a
+      >
+      icon by
+      <a
+        target="_blank"
+        href="https://icons8.com"
+        >Icons8</a
+      >
+    </footer>
+  </body>
+</html>

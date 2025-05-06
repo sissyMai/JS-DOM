@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  max-width: 1536px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: darkorchid;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+/* ================================================
+ Phần 2 + 3 + 4
+================================================*/
+.big-h1 {
+  font-size: 56px;
+  color: lightskyblue;
+}
+
+.container {
+  margin: 40px auto 20vh auto;
+  width: 70vw;
+  /* height: 80vh; */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+
+  border: 2px solid lightskyblue;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+.big-container {
+  width: 100%;
+  height: 50vh;
+  border-radius: 24px;
+  background-color: lightskyblue;
+}
+
+/* ================================================
+  Phần 5
+================================================*/
+li {
+  margin-bottom: 24px;
+}
+
+#output {
+  padding: 16px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 75ch;
+  margin: 20px auto;
+}
+
+.add,
+.delete {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: auto;
+}
+
+.add {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
+
+.delete {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}
+
+span {
+  cursor: pointer;
+  margin-left: 16px;
+  color: white;
+  background-color: red;
+  border-radius: 4px;
+  padding: 8px;
+}
